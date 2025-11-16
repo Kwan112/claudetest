@@ -3,55 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Simple Hjemmeside</title>
+    <title>Moderne Portfolio | Innovation & Design</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Velkommen til Min Hjemmeside</h1>
-        <nav>
-            <ul>
-                <li><a href="#hjem">Hjem</a></li>
-                <li><a href="#om">Om</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Hjem</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#about" class="nav-link">Om</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Kontakt</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
 
-    <main>
-        <section id="hjem">
-            <h2>Hjem</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Velkommen til Fremtiden</span>
+            </h1>
+            <p class="hero-subtitle">Innovation møder design i perfekt harmoni</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Kom i Gang</a>
+                <a href="#about" class="btn btn-secondary">Lær Mere</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
 
-        <section id="om">
-            <h2>Om Os</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-            <img src="https://via.placeholder.com/600x300" alt="Placeholder billede">
-        </section>
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Moderne Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Lynhurtig</h3>
+                    <p>Optimeret for maksimal performance og brugeroplevelse</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsiv</h3>
+                    <p>Perfekt på alle enheder, fra mobil til desktop</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sikker</h3>
+                    <p>Bygget med moderne sikkerhedsstandarder</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Moderne Design</h3>
+                    <p>Elegant og intuitivt brugerinterface</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="kontakt">
-            <h2>Kontakt</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-            <form>
-                <label for="navn">Navn:</label>
-                <input type="text" id="navn" name="navn" placeholder="Dit navn">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Om Os</h2>
+                    <p>Vi skaber digitale oplevelser der kombinerer funktionalitet med æstetik. Vores mission er at levere løsninger der ikke bare møder, men overgår forventningerne.</p>
+                    <p>Med et dedikeret team af eksperter indenfor design og udvikling, skaber vi værdi der varer. Fra koncept til lancering står vi klar til at realisere dine drømme.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Projekter</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Tilfredshed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Modern workspace">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="din@email.dk">
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Vores Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Web Udvikling</h3>
+                    <p>Skræddersyede løsninger med de nyeste teknologier og frameworks</p>
+                    <a href="#" class="service-link">Læs mere <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush service-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Brugercentreret design der skaber engagement og værdi</p>
+                    <a href="#" class="service-link">Læs mere <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategier der driver resultater og vækst for din business</p>
+                    <a href="#" class="service-link">Læs mere <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <label for="besked">Besked:</label>
-                <textarea id="besked" name="besked" rows="5" placeholder="Skriv din besked her..."></textarea>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Kontakt Os</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Lad os tale sammen</h3>
+                    <p>Vi er altid klar til at høre om dit næste projekt. Send os en besked, så vender vi tilbage hurtigst muligt.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>kontakt@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+45 12 34 56 78</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>København, Danmark</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="navn" name="navn" placeholder="Dit navn" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="din@email.dk" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="emne" name="emne" placeholder="Emne">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="besked" name="besked" rows="5" placeholder="Skriv din besked her..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send Besked <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Min Hjemmeside. Alle rettigheder forbeholdes.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Portfolio</h4>
+                    <p>Skaber digitale oplevelser der gør en forskel</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Hjem</a></li>
+                        <li><a href="#about">Om</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Følg Os</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
