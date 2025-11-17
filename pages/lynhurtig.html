@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynhurtig Performance | Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="../index.html#hero" class="nav-link">Hjem</a>
+                <a href="../index.html#features" class="nav-link">Features</a>
+                <a href="../index.html#about" class="nav-link">Om</a>
+                <a href="../index.html#services" class="nav-link">Services</a>
+                <a href="../index.html#contact" class="nav-link">Kontakt</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="subpage-hero" style="background: var(--gradient-1);">
+        <div class="container">
+            <div class="subpage-hero-content">
+                <div class="breadcrumb">
+                    <a href="../index.html">Hjem</a> / <span>Lynhurtig</span>
+                </div>
+                <div class="hero-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h1 class="subpage-title">Lynhurtig Performance</h1>
+                <p class="subpage-subtitle">Optimal hastighed og ydeevne for den bedste brugeroplevelse</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Metrics Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Performance Metrics</h2>
+            <div class="metrics-grid">
+                <div class="metric-card" data-metric="0">
+                    <div class="metric-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="metric-value" data-target="98">0</div>
+                    <div class="metric-label">PageSpeed Score</div>
+                    <div class="metric-bar">
+                        <div class="metric-progress" data-progress="98"></div>
+                    </div>
+                </div>
+                <div class="metric-card" data-metric="1">
+                    <div class="metric-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="metric-value"><span data-target="0.8">0</span>s</div>
+                    <div class="metric-label">Load Time</div>
+                    <div class="metric-bar">
+                        <div class="metric-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="metric-card" data-metric="2">
+                    <div class="metric-icon">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <div class="metric-value"><span data-target="45">0</span>KB</div>
+                    <div class="metric-label">Bundle Size</div>
+                    <div class="metric-bar">
+                        <div class="metric-progress" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="metric-card" data-metric="3">
+                    <div class="metric-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="metric-value"><span data-target="100">0</span>ms</div>
+                    <div class="metric-label">First Paint</div>
+                    <div class="metric-bar">
+                        <div class="metric-progress" data-progress="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">Se Performance i Aktion</h2>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe
+                        width="100%"
+                        height="500"
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        title="Performance Demo"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-description">Oplev hvordan optimeret performance skaber en bedre brugeroplevelse</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infographic Section -->
+    <section class="infographic-section">
+        <div class="container">
+            <h2 class="section-title">Optimization Process</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>1. Analyse</h3>
+                        <p>Identificer flaskehalse og performance issues</p>
+                        <div class="timeline-stats">
+                            <span class="stat-badge">Lighthouse Audit</span>
+                            <span class="stat-badge">Core Web Vitals</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>2. Optimering</h3>
+                        <p>Implementer best practices og optimeringsteknikker</p>
+                        <div class="timeline-stats">
+                            <span class="stat-badge">Code Splitting</span>
+                            <span class="stat-badge">Lazy Loading</span>
+                            <span class="stat-badge">Compression</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>3. Måling</h3>
+                        <p>Test og valider forbedringer i reelle forhold</p>
+                        <div class="timeline-stats">
+                            <span class="stat-badge">A/B Testing</span>
+                            <span class="stat-badge">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>4. Deploy</h3>
+                        <p>Udrulning af optimeret løsning til produktion</p>
+                        <div class="timeline-stats">
+                            <span class="stat-badge">CDN</span>
+                            <span class="stat-badge">Caching</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Circular Progress Charts -->
+    <section class="charts-section">
+        <div class="container">
+            <h2 class="section-title">Performance Breakdown</h2>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <div class="circular-chart">
+                        <svg viewBox="0 0 200 200" class="circular-svg">
+                            <circle cx="100" cy="100" r="80" class="circle-bg"></circle>
+                            <circle cx="100" cy="100" r="80" class="circle-progress" data-percent="95"></circle>
+                        </svg>
+                        <div class="chart-label">
+                            <span class="chart-percent">95%</span>
+                            <span class="chart-text">Speed Index</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <div class="circular-chart">
+                        <svg viewBox="0 0 200 200" class="circular-svg">
+                            <circle cx="100" cy="100" r="80" class="circle-bg"></circle>
+                            <circle cx="100" cy="100" r="80" class="circle-progress" data-percent="92"></circle>
+                        </svg>
+                        <div class="chart-label">
+                            <span class="chart-percent">92%</span>
+                            <span class="chart-text">Time to Interactive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <div class="circular-chart">
+                        <svg viewBox="0 0 200 200" class="circular-svg">
+                            <circle cx="100" cy="100" r="80" class="circle-bg"></circle>
+                            <circle cx="100" cy="100" r="80" class="circle-progress" data-percent="98"></circle>
+                        </svg>
+                        <div class="chart-label">
+                            <span class="chart-percent">98%</span>
+                            <span class="chart-text">First Contentful Paint</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Fordele ved Lynhurtig Performance</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Bedre UX</h3>
+                    <p>Hurtigere load times giver gladere brugere og lavere bounce rates</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <h3>SEO Boost</h3>
+                    <p>Google belønner hurtige sider med bedre rankings i søgeresultater</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Højere Konvertering</h3>
+                    <p>Hver sekund hurtigere load time øger konverteringsraten markant</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile First</h3>
+                    <p>Optimeret for mobile enheder med begrænset båndbredde</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Besparelser</h3>
+                    <p>Mindre data forbrug og lavere hosting costs</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Bæredygtighed</h3>
+                    <p>Mindre energiforbrug og lavere CO2 aftryk</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Klar til Lynhurtig Performance?</h2>
+                <p>Lad os optimere din hjemmeside for maksimal hastighed</p>
+                <div class="cta-buttons">
+                    <a href="../index.html#contact" class="btn btn-primary">Kontakt Os</a>
+                    <a href="../index.html" class="btn btn-secondary">Tilbage til Forsiden</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Portfolio</h4>
+                    <p>Skaber digitale oplevelser der gør en forskel</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#hero">Hjem</a></li>
+                        <li><a href="../index.html#about">Om</a></li>
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="../index.html#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Følg Os</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

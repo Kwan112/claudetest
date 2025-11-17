@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikkerhed | Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="../index.html#hero" class="nav-link">Hjem</a>
+                <a href="../index.html#features" class="nav-link">Features</a>
+                <a href="../index.html#about" class="nav-link">Om</a>
+                <a href="../index.html#services" class="nav-link">Services</a>
+                <a href="../index.html#contact" class="nav-link">Kontakt</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="subpage-hero" style="background: var(--gradient-2);">
+        <div class="container">
+            <div class="subpage-hero-content">
+                <div class="breadcrumb">
+                    <a href="../index.html">Hjem</a> / <span>Sikkerhed</span>
+                </div>
+                <div class="hero-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h1 class="subpage-title">Maksimal Sikkerhed</h1>
+                <p class="subpage-subtitle">Beskyt dine data med moderne sikkerhedsstandarder</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Layers Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Sikkerhedslag</h2>
+            <div class="security-layers">
+                <div class="layer-item">
+                    <div class="layer-number">1</div>
+                    <div class="layer-content">
+                        <h3><i class="fas fa-lock"></i> SSL/TLS Encryption</h3>
+                        <p>End-to-end kryptering af al data transmission</p>
+                        <div class="security-badge">
+                            <i class="fas fa-certificate"></i> 256-bit Encryption
+                        </div>
+                    </div>
+                </div>
+                <div class="layer-item">
+                    <div class="layer-number">2</div>
+                    <div class="layer-content">
+                        <h3><i class="fas fa-user-shield"></i> Authentication</h3>
+                        <p>Multi-factor authentication og sikker login</p>
+                        <div class="security-badge">
+                            <i class="fas fa-key"></i> OAuth 2.0 & JWT
+                        </div>
+                    </div>
+                </div>
+                <div class="layer-item">
+                    <div class="layer-number">3</div>
+                    <div class="layer-content">
+                        <h3><i class="fas fa-database"></i> Data Protection</h3>
+                        <p>Krypteret database og secure storage</p>
+                        <div class="security-badge">
+                            <i class="fas fa-shield-virus"></i> AES-256
+                        </div>
+                    </div>
+                </div>
+                <div class="layer-item">
+                    <div class="layer-number">4</div>
+                    <div class="layer-content">
+                        <h3><i class="fas fa-firewall"></i> Firewall & WAF</h3>
+                        <p>Web Application Firewall mod angreb</p>
+                        <div class="security-badge">
+                            <i class="fas fa-shield-alt"></i> DDoS Protection
+                        </div>
+                    </div>
+                </div>
+                <div class="layer-item">
+                    <div class="layer-number">5</div>
+                    <div class="layer-content">
+                        <h3><i class="fas fa-binoculars"></i> Monitoring</h3>
+                        <p>24/7 overvågning og threat detection</p>
+                        <div class="security-badge">
+                            <i class="fas fa-bell"></i> Real-time Alerts
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">Sikkerhed Forklaret</h2>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe
+                        width="100%"
+                        height="500"
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        title="Security Demo"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-description">Lær hvordan moderne sikkerhed beskytter din hjemmeside og dine brugere</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Encryption Visualization -->
+    <section class="infographic-section">
+        <div class="container">
+            <h2 class="section-title">Krypteringsproces</h2>
+            <div class="encryption-flow">
+                <div class="encryption-step">
+                    <div class="encryption-box">
+                        <i class="fas fa-file-alt"></i>
+                        <h4>Original Data</h4>
+                        <div class="data-example">Hello World!</div>
+                    </div>
+                </div>
+                <div class="encryption-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Encryption Key</span>
+                </div>
+                <div class="encryption-step">
+                    <div class="encryption-box encrypted">
+                        <i class="fas fa-lock"></i>
+                        <h4>Encrypted</h4>
+                        <div class="data-example">U2FsdGVkX19...</div>
+                    </div>
+                </div>
+                <div class="encryption-arrow">
+                    <i class="fas fa-cloud"></i>
+                    <span>Secure Transfer</span>
+                </div>
+                <div class="encryption-step">
+                    <div class="encryption-box">
+                        <i class="fas fa-unlock"></i>
+                        <h4>Decrypted</h4>
+                        <div class="data-example">Hello World!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Section -->
+    <section class="compliance-section">
+        <div class="container">
+            <h2 class="section-title">Compliance & Certificeringer</h2>
+            <div class="compliance-grid">
+                <div class="compliance-card">
+                    <div class="compliance-logo">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>GDPR</h3>
+                    <p>General Data Protection Regulation</p>
+                    <div class="compliance-status active">
+                        <i class="fas fa-shield-alt"></i> Compliant
+                    </div>
+                </div>
+                <div class="compliance-card">
+                    <div class="compliance-logo">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>SSL/TLS</h3>
+                    <p>Secure Sockets Layer Certificate</p>
+                    <div class="compliance-status active">
+                        <i class="fas fa-certificate"></i> Active
+                    </div>
+                </div>
+                <div class="compliance-card">
+                    <div class="compliance-logo">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>PCI DSS</h3>
+                    <p>Payment Card Industry Standard</p>
+                    <div class="compliance-status active">
+                        <i class="fas fa-check"></i> Certified
+                    </div>
+                </div>
+                <div class="compliance-card">
+                    <div class="compliance-logo">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>ISO 27001</h3>
+                    <p>Information Security Management</p>
+                    <div class="compliance-status active">
+                        <i class="fas fa-award"></i> Certified
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Threat Protection -->
+    <section class="threats-section">
+        <div class="container">
+            <h2 class="section-title">Beskyttelse Mod Trusler</h2>
+            <div class="threats-grid">
+                <div class="threat-card">
+                    <div class="threat-icon danger">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>SQL Injection</h3>
+                    <p>Prepared statements og input validation</p>
+                    <div class="protection-status">
+                        <i class="fas fa-shield-alt"></i> Protected
+                    </div>
+                </div>
+                <div class="threat-card">
+                    <div class="threat-icon danger">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>XSS Attacks</h3>
+                    <p>Content Security Policy og output encoding</p>
+                    <div class="protection-status">
+                        <i class="fas fa-shield-alt"></i> Protected
+                    </div>
+                </div>
+                <div class="threat-card">
+                    <div class="threat-icon danger">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>CSRF</h3>
+                    <p>Anti-CSRF tokens og SameSite cookies</p>
+                    <div class="protection-status">
+                        <i class="fas fa-shield-alt"></i> Protected
+                    </div>
+                </div>
+                <div class="threat-card">
+                    <div class="threat-icon danger">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>DDoS</h3>
+                    <p>Rate limiting og traffic filtering</p>
+                    <div class="protection-status">
+                        <i class="fas fa-shield-alt"></i> Protected
+                    </div>
+                </div>
+                <div class="threat-card">
+                    <div class="threat-icon danger">
+                        <i class="fas fa-user-lock"></i>
+                    </div>
+                    <h3>Brute Force</h3>
+                    <p>Account lockout og CAPTCHA</p>
+                    <div class="protection-status">
+                        <i class="fas fa-shield-alt"></i> Protected
+                    </div>
+                </div>
+                <div class="threat-card">
+                    <div class="threat-icon danger">
+                        <i class="fas fa-virus"></i>
+                    </div>
+                    <h3>Malware</h3>
+                    <p>Anti-virus scanning og file validation</p>
+                    <div class="protection-status">
+                        <i class="fas fa-shield-alt"></i> Protected
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Fordele ved Stærk Sikkerhed</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Brugertillid</h3>
+                    <p>Opbyg tillid hos dine brugere med synlig sikkerhed</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Lovmæssig Compliance</h3>
+                    <p>Overhold GDPR og andre datasikkerhedslove</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Undgå Databrud</h3>
+                    <p>Spar millioner i potentielle bøder og tab</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Brand Protection</h3>
+                    <p>Beskyt dit brand mod sikkerhedshændelser</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3>Ro i Sindet</h3>
+                    <p>Sov trygt med 24/7 sikkerhedsovervågning</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Konkurrencefordel</h3>
+                    <p>Skil dig ud med certificeret sikkerhed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Sikr Din Hjemmeside i Dag</h2>
+                <p>Lad os implementere enterprise-grade sikkerhed for dig</p>
+                <div class="cta-buttons">
+                    <a href="../index.html#contact" class="btn btn-primary">Kontakt Os</a>
+                    <a href="../index.html" class="btn btn-secondary">Tilbage til Forsiden</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Portfolio</h4>
+                    <p>Skaber digitale oplevelser der gør en forskel</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#hero">Hjem</a></li>
+                        <li><a href="../index.html#about">Om</a></li>
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="../index.html#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Følg Os</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. Alle rettigheder forbeholdes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
